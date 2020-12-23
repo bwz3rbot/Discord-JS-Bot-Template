@@ -1,4 +1,3 @@
-# TESTO!TESTO!TESTO! TOKEN
 TOKEN='?????'
 
 MY_USER_ID='??????'
@@ -10,7 +9,7 @@ PREFIX='!'
 
 # DATABASE CONNECTION
 PGUSER='postgres'
-PGPASS='5ssFKHpnowfpSZnXHRjh'
+PGPASS='????'
 PGPORT='5432'
 PGURL='localhost'
 DBNAME='testo'
