@@ -1,0 +1,24 @@
+{
+  "name": "mynextdiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "nodemon src/app.js",
+    "run": "node src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dateformat": "^3.0.3",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "pg": "^8.5.1"
+  },
+  "engines": {
+    "node": "v12.18.3",
+    "npm": "6.14.6"
+  }
+}
