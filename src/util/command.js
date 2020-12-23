@@ -19,12 +19,8 @@ const buildArgs = function (args) {
 const prefix = process.env.PREFIX || "!";
 module.exports =
     (string) => {
-        console.log(string);
         string = string.trim();
-        console.log(string);
         const pref = string[0];
-        console.log(string);
-
         if (pref != prefix) {
             return false;
         }
