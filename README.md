@@ -1,4 +1,4 @@
-# Discord VC Monitor Webhooks
+# Discord Bot Template with Postgresql Database
 
 ## Table of Contents
 
@@ -6,8 +6,6 @@
 - [Getting Started](#getting_started)
     - [Prerequisites](#getting_started)
     - [Inviting The Bot To Your Server](#invite)
-    - [Granting Permissions](#perms)
-    - [Configuring Webhooks](#webhooks)
     - [Environment Variables](#env_var)
     - [Installing](#installing)
 - [Running](#running)
