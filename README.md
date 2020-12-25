@@ -94,14 +94,14 @@ https://discord.com/oauth2/authorize?client_id=123456789012345678&scope=bot
 # Environment Variables <a name = "env_var"></a>
 The environment variables listed below are stored in your __pw.env__ file. You will notice a single file that exists within the root directory of this codebase called __pw.envEXAMPLE.__ Here is where you can customize your bot. The only requirements are that you input the correct token for your bot and ACTIVITY_TYPE is limited to only 3 choices. Besides those limitations, you have a number of variables to choose from to make the bot fit your server's personality. See below for definitions of what they all mean.
 
-|__TOKEN__| Is found in the Discord Developer Portal when you created your bot.
-|__MY_USER_ID__| Is used to filter commands from only yourself.
-|__SET_USERNAME__| Is used to set the bot's username programmatically in the code.
-|__PREFIX__| Command prefix used by the command parser utility.
-|__PGUSER__| The username you use to login to your Postgres server - defaults to postgres.
-|__PGPASS__| Password you chose when setting up your Postgres installation.
-|__PGPORT__| Defaults to 5432.
-|__PGURL__| Set this as: "localhost" if you are running locally.
+|__TOKEN__| Is found in the Discord Developer Portal when you created your bot.\
+|__MY_USER_ID__| Is used to filter commands from only yourself.\
+|__SET_USERNAME__| Is used to set the bot's username programmatically in the code.\
+|__PREFIX__| Command prefix used by the command parser utility.\
+|__PGUSER__| The username you use to login to your Postgres server - defaults to postgres.\
+|__PGPASS__| Password you chose when setting up your Postgres installation.\
+|__PGPORT__| Defaults to 5432.\
+|__PGURL__| Set this as: "localhost" if you are running locally.\
 |__DBNAME__| Make sure you create the database in the terminal before attempting to connect from in the code!
 
 -----
