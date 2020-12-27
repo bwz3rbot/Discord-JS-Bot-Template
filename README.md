@@ -26,6 +26,8 @@ Require each of your commands from `src/bot/commands` package into the listener 
 
 Quickly create embeds in your code by requiring the embed builder from the util package.
 
+Parse commands by requiring the command util.
+
 # Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine.
