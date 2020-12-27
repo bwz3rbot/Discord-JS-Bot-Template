@@ -18,6 +18,14 @@ This Discord Bot template will get you started making a bot with many reusable c
 
 It comes with a postgresql database of members with a command parser and message listener to perform CRUD operations on the table.
 
+HOW TO USE?
+
+In `src/bot/listener.js` you will register all your command names with the message listner.
+
+Require each of your commands from `src/bot/commands` package into the listener module.
+
+Quickly create embeds in your code by requiring the embed builder from the util package.
+
 # Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine.
